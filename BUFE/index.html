@@ -8,6 +8,14 @@
     <title>BÜFÉ</title>
 </head>
 <body>
+    <form action="http://127.0.0.1:5500/BUFE/adat.html" method="get">
+        <input type="text" placeholder="felhasználónév"><br>
+        <input type="password" placeholder="jelszó"><br>
+            <input type="submit" value="Bejelentkezés">
+        <a href="http://127.0.0.1:5500/BUFE/adat.html">  
+            <input type="button" value="Regisztráció">  
+        </a>
+    </form>
     <div id="wrapper">
         <header>
             <div  id="cim">
@@ -25,20 +33,16 @@
             <article>
                 <section>
                     <h2 id="koz">Ételkínálat</h2>
-                    
                     <div class="column" id="myDIV">
                         <img src="lead_Social_gyrostal-(1).jpg">
                         <p class="etel">Gyros</p>
                     </div>
                     <p class="hide">Ára:1000FT</p>
-                    
                     <div class="column" id="myDIV">
                         <img src="homemade-hot-dogs-1808491-final-01-ddf78878cb784ccdb617a2ae31674b75.jpg">
                         <p class="etel">Hot Dog</p>
                     </div>
                     <p class="hide">Ára:400FT</p>
-                    
-                    
                     <div class="column" id="myDIV">
                         <img src="gettyimages-1083487948-20210104.jpg">
                         <p class="etel">Pizza</p>
@@ -50,8 +54,19 @@
                         <p class="etel">Hamburger</p>
                     </div>
                     <p class="hide">Ára:500FT</p>
-
-
+                </section>
+                <section class="clear">
+                    <h2 id="koz">Fizetési lehetőségek</h2>
+                    <ul>
+                        <li>Sodexho</li>
+                        <li>Posta Paletta</li>
+                        <li> Erzsébet Utalvány</li>
+                        <li> Erzsébet Utalvány Plusz </li>
+                        <li>MKB Szép Kártya</li>
+                        <li>OTP Szép Kártya</li>
+                        <li> K&H Szép Kártya</li>
+                    </ul>
+                    <img id="fiz" src="donpedro-pizza-debrecen-elfogadohely1-1024x451.png">
                 </section>
             </article>
         </main>
