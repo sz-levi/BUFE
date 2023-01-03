@@ -1,0 +1,78 @@
+#text{
+    text-align: center;
+    font-size: 2.1em;
+    color: yellow;
+}
+nav{
+    text-align: center;
+    font-size: 1.2em;
+    border: 2px solid black;
+    background: rgb(255, 0, 0);
+    color: yellow;
+    width: 100%;
+    
+}
+a:hover{
+    color: rgb(68, 68, 200);
+    text-decoration: none;
+}
+a{ 
+    text-decoration: none; 
+    color: yellow;
+}
+body{
+    background-image: url(ham.jpg);
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+p{
+    color: yellow;
+    font-size: x-large;
+}
+#bal{
+    float: left;
+    padding-top: 20px;
+    padding-left: 500px;
+}
+#jobb{
+    float: right;
+    padding-top: 20px;
+    padding-right: 500px;
+}
+html{
+    color: yellow;
+}
+img{
+    width: 250px;
+    height: 150px;
+    border: 3px solid yellow;
+    border-radius: 5px;
+    border-style: groove;
+}
+#cim{
+    text-align: center;
+}
+.column {
+    float: left;
+    padding: 5px;
+    text-align: center;
+    margin: 1%; 
+    position: relative; 
+    font-size: xx-large;
+}
+img:hover{
+    width: 450px;
+    height: 250px;
+}
+.etel{
+    color:aquamarine ;
+}
+.hide{
+    display: none;
+}
+#myDIV:hover + .hide{
+    display: flex;
+    color: rgb(255, 255, 255);
+  }
