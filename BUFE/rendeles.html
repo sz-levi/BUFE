@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilus.css">
+    <title>Rendelés</title>
+</head>
+<body>
+    <form action="#" method="get">
+        <fieldset>
+            <legend>Rendelési adatok</legend>
+            <div id="rendelesiadatok">
+                <div id="fontos">
+                    <input type="text" placeholder="Név" id="rendelesiadatok" required><br>
+                    <input type="text" placeholder="Osztály" maxlength="3" id="rendelesiadatok" required><br>
+                    <input type="tel" placeholder="Telefonszám" id="rendelesiadatok" required><br>
+                    </div>
+                <div id="terem">
+                    <label for="teremi">Kiszállítási hely</label>
+                    <input type="number" max="100" value="1" min="1" id="teremi" required>
+                </div>
+                <div id="ora"> 
+                    <label for="orao" id="orasz">Kiszállítási időpontok</label>
+                    <select name="orao" id="orao" required>
+                        <option value="">1</option>
+                        <option value="">2</option>
+                        <option value="">3</option>
+                        <option value="">4</option>
+                        <option value="">5</option>
+                        <option value="">6</option>
+                        <option value="">7</option>
+                    </select><br>
+                    <span id="orasz">(Óra utáni szünetek)</span>
+                </div>
+                <div id="gomb">
+                    <input type="submit" value="Rendel">
+                    <input type="reset">
+                </div>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>

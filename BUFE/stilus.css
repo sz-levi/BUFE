@@ -42,7 +42,7 @@ p{
     padding-top: 20px;
     padding-right: 500px;
 }
-html{
+htm{
     color: yellow;
 }
 img{
@@ -78,7 +78,7 @@ img:hover{
     color: rgb(122, 255, 60);
 }
 footer{
-    padding-top: 100px;
+    padding-top: 50px;
 }
 #mec{
     width: 50px;
@@ -98,6 +98,7 @@ ul{
    list-style: none;
    font-size: large;
    text-align: center;
+   color: yellow;
 }
 #fiz{
     margin-left: 550px;
@@ -107,4 +108,33 @@ ul{
 }
 .etel:hover{
     color: rgb(122, 255, 60);
+}
+legend, label, #orasz{
+    color: white;
+    font-weight: bold;
+}
+fieldset{
+    width: 400px;
+    margin: auto;
+}
+#rendelesiadatok{
+    width: min-content;
+    margin-left: 40px;
+    font-weight: bold;
+}
+h2{
+    color: yellow;
+}
+#orasz{
+    margin-left: 40px;
+}
+#terem{
+    margin-left: 40px;
+}
+#teremi{
+    width: 22px;
+    margin-left: 41px;
+}
+#gomb{
+    margin-left: 40px;
 }
