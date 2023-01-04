@@ -108,6 +108,7 @@ ul{
 }
 .etel:hover{
     color: rgb(122, 255, 60);
+    cursor: pointer;
 }
 legend, label, #orasz{
     color: white;
