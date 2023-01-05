@@ -5,36 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stilus.css" type="text/css">
-    <title>BÜFÉ</title>
+    <title>Mechwart BÜFÉ</title>
 </head>
 <body>
+    <form action="#" method="get">
+        <input type="text" placeholder="felhasználónév"><br>
+        <input type="password" placeholder="jelszó"><br>
+            <input type="submit" value="Bejelentkezés">
+            <input type="button" value="Regisztráció">
+    </form>
     <div id="wrapper">
         <header>
-            <h1 id="text">Mechwart Büfé</h1>
+            <div  id="cim">
+                <img id="mec" src="mehwart_f825f57b20.png" id="mec">
+                <span id="cimsz">Mechwart Büfé</span>
+            </div>
             <nav>
-                <a href="http://127.0.0.1:5500/etel.html" target="_blank">Ételkínálat</a>
-                <a href="http://127.0.0.1:5500/ital.html" target="_blank">Italkínálat</a>
-                <a href="http://127.0.0.1:5500/rendeles.html" target="_blank">Rendelés</a>
+                <a href="http://127.0.0.1:5500/BUFE/index.html">Kezdőlap</a>
+                <a href="http://127.0.0.1:5500/BUFE/etel.html">Ételkínálat</a>
+                <a href="http://127.0.0.1:5500/BUFE/ital.html">Italkínálat</a>
+                <a href="http://127.0.0.1:5500/BUFE/rendeles.html">Rendelés</a>
             </nav>
         </header>
         <main>
             <article>
                 <section>
-                    <h2 id="cim">Ételkínálat</h2>
-                    
+                    <h2 id="koz">Ételkínálat</h2>
                     <div class="column" id="myDIV">
                         <img src="lead_Social_gyrostal-(1).jpg">
                         <p class="etel">Gyros</p>
                     </div>
                     <p class="hide">Ára:1000FT</p>
-                    
                     <div class="column" id="myDIV">
                         <img src="homemade-hot-dogs-1808491-final-01-ddf78878cb784ccdb617a2ae31674b75.jpg">
                         <p class="etel">Hot Dog</p>
                     </div>
                     <p class="hide">Ára:400FT</p>
-                    
-                    
                     <div class="column" id="myDIV">
                         <img src="gettyimages-1083487948-20210104.jpg">
                         <p class="etel">Pizza</p>
@@ -46,15 +52,26 @@
                         <p class="etel">Hamburger</p>
                     </div>
                     <p class="hide">Ára:500FT</p>
-
-
+                </section>
+                <section class="clear">
+                    <h2 id="koz">Fizetési lehetőségek</h2>
+                    <ul>
+                        <li>Sodexho</li>
+                        <li>Posta Paletta</li>
+                        <li> Erzsébet Utalvány</li>
+                        <li> Erzsébet Utalvány Plusz </li>
+                        <li>MKB Szép Kártya</li>
+                        <li>OTP Szép Kártya</li>
+                        <li> K&H Szép Kártya</li>
+                    </ul>
+                    <img id="fiz" src="donpedro-pizza-debrecen-elfogadohely1-1024x451.png">
                 </section>
             </article>
         </main>
         <footer>
             <div id="jobb">
             <p>Nyitvatartás:</p>
-                <p>11:00-22:30</p>
+                <p>Hétfő-Péntek 7:30-16:30</p>
             </div>
             <div id="bal">
                 <p>Elérhetőségek:</p>
